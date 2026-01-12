@@ -1,16 +1,15 @@
-## Hi there 👋
+# Cybersecurity & Digital Forensics Portfolio
 
-<!--
-**mufticyberpro/mufticyberpro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Hi, I’m **Muftaw Wahab Ayinla**, a cybersecurity and digital forensics professional. This portfolio showcases my practical work, labs, and projects in cybersecurity, incident response, and digital forensics.
 
-Here are some ideas to get you started:
+## Sections
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [Labs](./Labs) – Hands-on exercises and experiments
+- [Projects](./Projects) – Real-world implementations
+- [Tools and Scripts](./Tools_and_Scripts) – Python, Bash, and automation scripts
+- [Reports](./Reports) – Sample forensic and incident response reports
+- [Certifications](./Certifications) – Proof of cybersecurity qualifications
+
+## Contact
+- Email: mufticyberpro@gmail.com
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
