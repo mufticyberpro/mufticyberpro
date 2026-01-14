@@ -1,6 +1,12 @@
 # Cybersecurity & Digital Forensics Portfolio
 
-Hi, I’m **Muftaw Wahab Ayinla**, a cybersecurity and digital forensics professional. This portfolio showcases my practical work, labs, and projects in cybersecurity, incident response, and digital forensics.
+Hi, I’m **Muftaw Wahab Ayinla**, a cybersecurity professional with hands-on experience in
+- Incident Response
+- Network Traffic Analysis
+- Digital Forensics
+- SOC Operations
+
+This repository demonstrates practical cybersecurity skills through labs, projects, scripts, and professional reports aligned with real-world security operations.
 
 ## Sections
 
@@ -12,4 +18,4 @@ Hi, I’m **Muftaw Wahab Ayinla**, a cybersecurity and digital forensics profess
 
 ## Contact
 - Email: mufticyberpro@gmail.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/muftaw-wahab-ayinla)
