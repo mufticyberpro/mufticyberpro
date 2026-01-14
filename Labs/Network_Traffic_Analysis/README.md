@@ -34,3 +34,10 @@ To analyze captured network traffic in order to identify normal activity and pot
 - Monitor network traffic for anomalies
 - Use packet analysis during incident investigations
 
+- ## Screenshots
+
+### TCP Three-Way Handshake
+![TCP Handshake](images/wireshark.png)
+
+
+
