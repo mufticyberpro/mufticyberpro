@@ -1,4 +1,4 @@
-# Cybersecurity & Digital Forensics Portfolio
+# Cybersecurity, DFIR & System Administrator Portfolio
 
 Hi, I’m **Muftaw Wahab Ayinla**, a cybersecurity professional with hands-on experience in
 - Incident Response
