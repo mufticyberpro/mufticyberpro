@@ -69,7 +69,7 @@ Each lab below contains an **objective**, **environment setup**, **step-by-step 
 
 ## 🏆 Background
 
-- 🎓 **MSc Cybersecurity** — Liverpool John Moores University *(in progress)*
+- 🎓 **MSc Cybersecurity** — Liverpool John Moores University
 - 🏫 **Founder & Lead Instructor** — Muftinet IT Training Centre, Ghana
 - 💼 **Owner** — Muftinet IT Solutions (web platforms, SME systems, secure deployments)
 - 📜 Completed certifications and training records: **[/Certifications](https://github.com/mufticyberpro/mufticyberpro/blob/main/Certifications)**
