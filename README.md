@@ -60,6 +60,19 @@ Each lab below contains an **objective**, **environment setup**, **step-by-step 
 
 ### 🔬 Digital Forensics
 - **[Digital Forensics Investigation — Autopsy / FTK / Volatility](https://github.com/mufticyberpro/mufticyberpro/blob/main/Labs/Digital_Forensics)** — disk imaging, file carving, memory analysis, timeline reconstruction
+- ## 🔎 Digital Forensics
+
+- **[Windows Digital Forensics Investigation](...)**
+  — Windows artefact analysis, Event Logs, Registry, Prefetch, Amcache and user activity
+
+- **[Memory Forensics — Volatility](...)**
+  — process analysis, network connections, suspicious processes and memory artefacts
+
+- **[Timeline Analysis](...)**
+  — reconstructed user and system activity from multiple forensic artefacts
+
+- **[Autopsy / FTK Forensic Examination](...)**
+  — disk imaging, artefact analysis, file examination and evidence reporting
 
 ---
 
