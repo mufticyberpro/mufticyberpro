@@ -43,20 +43,25 @@ Each lab below contains an **objective**, **environment setup**, **step-by-step 
 
 ## 🛡️ SOC & Microsoft Security
 
-- **[Microsoft Sentinel — Authentication Investigation](...)**  
-  — investigated failed/successful sign-ins, source IPs, users, and authentication activity using KQL
+## 🛡️ SOC & Microsoft Security
 
-- **[Microsoft Sentinel — Brute Force Detection](...)**  
-  — analysed authentication failures, created detection logic, and investigated suspicious activity
+- **[Microsoft Sentinel — Authentication Investigation](...)**  
+  — investigated successful and failed Microsoft Entra sign-ins, users, source IPs, authentication requirements, and sign-in activity using KQL
+
+- **[Microsoft Defender XDR — Entra Sign-In Investigation](...)**  
+  — investigated Microsoft Entra authentication activity using Advanced Hunting, correlated successful and failed sign-ins, analysed authentication types, applications, error codes, and event timelines
 
 - **[Microsoft Defender XDR — Incident Investigation](...)**  
-  — investigated alerts, devices, users, processes, and incident timelines
+  — investigated security incidents and alerts using the Microsoft Defender portal, analysing users, applications, authentication activity, and incident evidence
+
+- **[Microsoft Sentinel — Detection & Investigation](...)**  
+  — created and investigated security detections using KQL, analysed authentication telemetry, and applied SOC investigation techniques
 
 - **[Microsoft Entra ID — Identity Investigation](...)**  
-  — investigated suspicious authentication and account activity
+  — investigated identity and authentication activity, including interactive and non-interactive sign-ins, MFA requirements, source IPs, and authentication failures
 
 - **[PowerShell — Security Investigation Scripts](...)**  
-  — PowerShell scripts for investigation, triage, and system analysis
+  — developed PowerShell scripts for security investigation, triage, system analysis, and administrative tasks
 
   - ## 🔎 Digital Forensics
 
