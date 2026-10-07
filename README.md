@@ -65,9 +65,9 @@ Each lab below contains an **objective**, **environment setup**, **step-by-step 
 
 ## 🌱 Currently Studying
 
-- 🐧 **RHCSA (Red Hat Certified System Administrator)** — Linux administration, SELinux, storage, networking, automation with shell scripts
-- 🔬 **Digital Forensics** — disk and memory analysis, evidence preservation, chain of custody, forensic reporting
-- 🤖 Applied **AI for SOC operations** — using LLMs for alert triage and incident report drafting
+- 🐧 **SC-200 — Microsoft Security Operations Analyst** — currently studying
+- 🔬 **Digital Forensics / FOR500** — currently developing practical expertise
+- 🤖 **RHCSA — Red Hat Certified System Administrator** — currently studying
 
 ---
 
