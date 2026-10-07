@@ -41,6 +41,37 @@ This repository is my working portfolio. Every lab, project, and report here was
 
 Each lab below contains an **objective**, **environment setup**, **step-by-step commands**, **annotated screenshots**, and **findings**.
 
+## 🛡️ SOC & Microsoft Security
+
+- **[Microsoft Sentinel — Authentication Investigation](...)**  
+  — investigated failed/successful sign-ins, source IPs, users, and authentication activity using KQL
+
+- **[Microsoft Sentinel — Brute Force Detection](...)**  
+  — analysed authentication failures, created detection logic, and investigated suspicious activity
+
+- **[Microsoft Defender XDR — Incident Investigation](...)**  
+  — investigated alerts, devices, users, processes, and incident timelines
+
+- **[Microsoft Entra ID — Identity Investigation](...)**  
+  — investigated suspicious authentication and account activity
+
+- **[PowerShell — Security Investigation Scripts](...)**  
+  — PowerShell scripts for investigation, triage, and system analysis
+
+  - ## 🔎 Digital Forensics
+
+- **[Windows Digital Forensics Investigation](...)**
+  — Windows artefact analysis, Event Logs, Registry, Prefetch, Amcache, and user activity
+
+- **[Memory Forensics — Volatility](...)**
+  — process analysis, network connections, suspicious processes and memory artefacts
+
+- **[Timeline Analysis](...)**
+  — reconstructed user and system activity from multiple forensic artefacts
+
+- **[Autopsy / FTK Forensic Examination](...)**
+  — disk imaging, artefact analysis, file examination, and evidence reporting
+  
 ### 🔎 Reconnaissance & Vulnerability Assessment
 - **[Nmap — Network Scanning & Enumeration](https://github.com/mufticyberpro/mufticyberpro/blob/main/Labs/Nmap_Network_Scanning)** — host discovery, service/version detection, OS fingerprinting, NSE scripts
 - **[Nessus — Vulnerability Assessment](https://github.com/mufticyberpro/mufticyberpro/blob/main/Labs/Nessus_Vulnerability_Assessment)** — credentialed scans, CVE prioritisation, remediation reporting
@@ -57,20 +88,6 @@ Each lab below contains an **objective**, **environment setup**, **step-by-step 
 ### 🖥️ System Administration & Hardening
 - **[Windows Server 2022 — Active Directory Setup](https://github.com/mufticyberpro/mufticyberpro/blob/main/Labs/WindowsServer2022_AD)** — DC promotion, OUs, Group Policy, user/group management
 - **[Linux Hardening — RHCSA-Style Lab](https://github.com/mufticyberpro/mufticyberpro/blob/main/Labs/Linux_Hardening_RHCSA)** — user/permission management, SELinux, firewalld, systemd, secure SSH
-
-- ## 🔎 Digital Forensics
-
-- **[Windows Digital Forensics Investigation](...)**
-  — Windows artefact analysis, Event Logs, Registry, Prefetch, Amcache and user activity
-
-- **[Memory Forensics — Volatility](...)**
-  — process analysis, network connections, suspicious processes and memory artefacts
-
-- **[Timeline Analysis](...)**
-  — reconstructed user and system activity from multiple forensic artefacts
-
-- **[Autopsy / FTK Forensic Examination](...)**
-  — disk imaging, artefact analysis, file examination and evidence reporting
 
 ---
 
