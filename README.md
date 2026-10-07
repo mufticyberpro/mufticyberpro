@@ -58,8 +58,6 @@ Each lab below contains an **objective**, **environment setup**, **step-by-step 
 - **[Windows Server 2022 — Active Directory Setup](https://github.com/mufticyberpro/mufticyberpro/blob/main/Labs/WindowsServer2022_AD)** — DC promotion, OUs, Group Policy, user/group management
 - **[Linux Hardening — RHCSA-Style Lab](https://github.com/mufticyberpro/mufticyberpro/blob/main/Labs/Linux_Hardening_RHCSA)** — user/permission management, SELinux, firewalld, systemd, secure SSH
 
-### 🔬 Digital Forensics
-- **[Digital Forensics Investigation — Autopsy / FTK / Volatility](https://github.com/mufticyberpro/mufticyberpro/blob/main/Labs/Digital_Forensics)** — disk imaging, file carving, memory analysis, timeline reconstruction
 - ## 🔎 Digital Forensics
 
 - **[Windows Digital Forensics Investigation](...)**
