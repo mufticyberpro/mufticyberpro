@@ -11,7 +11,7 @@ Conduct a practical digital forensic examination using Autopsy to identify, exam
 
 Autopsy Welcome window will appear along with the Autopsy main window in the background. In the Welcome window, click New Case.
 
-![Autopsy New Case Information window](screenshots/02-new-case-information.png)
+![Autopsy New Case Information window](screenshots/01-autopsy-welcome.png)
 
 The New Case Information window now shows the Optional Information section where you can specify details such as the name of the examiner and case number. 
 For this lab, let us enter the name of the examiner as Smith and the case number as 1001-101. 
