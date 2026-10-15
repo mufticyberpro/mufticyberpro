@@ -37,14 +37,6 @@ This repository is my working portfolio. Every lab, project, and report here was
 
 ---
 
-## 🌱 Currently Studying
-
-- 🐧 **SC-200 — Microsoft Security Operations Analyst** — currently studying
-- 🔬 **Digital Forensics / FOR500** — currently developing practical expertise
-- 🤖 **RHCSA — Red Hat Certified System Administrator** — currently studying
-
----
-
 ## 🏆 Background
 
 - 🎓 **MSc Cybersecurity** — Liverpool John Moores University
