@@ -30,10 +30,10 @@ This repository is my working portfolio. Every lab, project, and report here was
 | Section | What's inside |
 |---------|---------------|
 | 🧪 **[Labs](https://github.com/mufticyberpro/mufticyberpro/blob/main/Labs)** | All practical labs, organised by cybersecurity domain, with links to individual investigations. |
-| 🛠️ **[Projects](https://github.com/mufticyberpro/mufticyberpro/blob/main/Projects)** | End-to-end implementations: SOC workflows, IR case studies, network defence |
-| 🐍 **[Tools and Scripts](https://github.com/mufticyberpro/mufticyberpro/blob/main/Tools_and_Scripts)** | Python and Bash automation for triage, log parsing, and threat mitigation |
-| 📄 **[Reports](https://github.com/mufticyberpro/mufticyberpro/blob/main/Reports)** | Forensic and incident response reports formatted for analyst-grade delivery |
-| 🏆 **[Certifications](https://github.com/mufticyberpro/mufticyberpro/blob/main/Certifications)** | Proof of completed cybersecurity qualifications and training |
+| 🛠️ **[Projects](https://github.com/mufticyberpro/mufticyberpro/blob/main/Projects)** | End-to-end SOC workflows, incident response case studies and network defence implementations. |
+| 🐍 **[Tools and Scripts](https://github.com/mufticyberpro/mufticyberpro/blob/main/Tools_and_Scripts)** | Python, PowerShell and Bash automation, triage utilities and detection scripts.|
+| 📄 **[Reports](https://github.com/mufticyberpro/mufticyberpro/blob/main/Reports)** | Forensic examination reports, investigation findings and incident response documentation. |
+| 🏆 **[Certifications](https://github.com/mufticyberpro/mufticyberpro/blob/main/Certifications)** | Completed qualifications and verifiable training credentials. |
 
 ---
 
