@@ -29,7 +29,7 @@ This repository is my working portfolio. Every lab, project, and report here was
 
 | Section | What's inside |
 |---------|---------------|
-| 🧪 **[Labs](https://github.com/mufticyberpro/mufticyberpro/blob/main/Labs)** | Hands-on exercises with each tool — commands, screenshots, observations |
+| 🧪 **[Labs](https://github.com/mufticyberpro/mufticyberpro/blob/main/Labs)** | All practical labs, organised by cybersecurity domain, with links to individual investigations. |
 | 🛠️ **[Projects](https://github.com/mufticyberpro/mufticyberpro/blob/main/Projects)** | End-to-end implementations: SOC workflows, IR case studies, network defence |
 | 🐍 **[Tools and Scripts](https://github.com/mufticyberpro/mufticyberpro/blob/main/Tools_and_Scripts)** | Python and Bash automation for triage, log parsing, and threat mitigation |
 | 📄 **[Reports](https://github.com/mufticyberpro/mufticyberpro/blob/main/Reports)** | Forensic and incident response reports formatted for analyst-grade delivery |
