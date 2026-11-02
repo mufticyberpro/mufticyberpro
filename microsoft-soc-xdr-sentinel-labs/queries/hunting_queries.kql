@@ -1,0 +1,93 @@
+// =========================================================================
+// Microsoft SC-200 Hands-on Practical Hunting Queries
+// Target Platforms:
+//   - Microsoft Defender XDR Advanced Hunting (security.microsoft.com)
+//   - Microsoft Sentinel Logs (portal.azure.com)
+// =========================================================================
+
+// -------------------------------------------------------------------------
+// QUERY 1: Hunt for Living-off-the-Land (LOLBAS) certutil downloads
+// Run this after running 'simulate_suspicious_process.ps1'
+// -------------------------------------------------------------------------
+DeviceProcessEvents
+| where Timestamp > ago(24h)
+| where FileName =~ "certutil.exe"
+| where ProcessCommandLine has_any ("-urlcache", "-split", "http:", "https:")
+| project Timestamp, DeviceName, AccountName, ProcessCommandLine, InitiatingProcessFileName, InitiatingProcessCommandLine, FolderPath
+| sort by Timestamp desc
+
+// -------------------------------------------------------------------------
+// QUERY 2: Hunt for Obfuscated / Base64 Encoded PowerShell Executions
+// Detects powershell.exe invoked with -enc or -EncodedCommand
+// -------------------------------------------------------------------------
+DeviceProcessEvents
+| where Timestamp > ago(24h)
+| where FileName in~ ("powershell.exe", "pwsh.exe")
+| where ProcessCommandLine has_any ("-e ", "-enc ", "-encodedcommand", "-ec ")
+| project Timestamp, DeviceName, AccountName, ProcessCommandLine, InitiatingProcessFileName
+| sort by Timestamp desc
+
+// -------------------------------------------------------------------------
+// QUERY 3: Inspect Attack Surface Reduction (ASR) Events in Defender XDR
+// Checks both Block and Audit actions taken by ASR on your Windows 11 device
+// -------------------------------------------------------------------------
+DeviceEvents
+| where Timestamp > ago(7d)
+| where ActionType startswith "Asr"
+| parse AdditionalFields with * '"RuleId":"' AsrRuleId '"' *
+| project Timestamp, DeviceName, ActionType, AsrRuleId, FileName, FolderPath, InitiatingProcessCommandLine
+| sort by Timestamp desc
+
+// -------------------------------------------------------------------------
+// QUERY 4: Hunt for Suspicious Scheduled Task Persistence (schtasks.exe)
+// Run this after running 'simulate_persistence.ps1'
+// -------------------------------------------------------------------------
+DeviceProcessEvents
+| where Timestamp > ago(24h)
+| where FileName =~ "schtasks.exe"
+| where ProcessCommandLine has "/create"
+| project Timestamp, DeviceName, AccountName, ProcessCommandLine, InitiatingProcessFileName
+| sort by Timestamp desc
+
+// -------------------------------------------------------------------------
+// QUERY 5: Correlate Process Creation with Outbound Network Connections
+// Cross-table join between DeviceProcessEvents and DeviceNetworkEvents
+// -------------------------------------------------------------------------
+DeviceProcessEvents
+| where Timestamp > ago(24h)
+| where FileName =~ "certutil.exe"
+| join kind=inner (
+    DeviceNetworkEvents
+    | where Timestamp > ago(24h)
+    | project NetworkTimestamp = Timestamp, DeviceId, RemoteUrl, RemoteIP, RemotePort, ActionType
+) on DeviceId
+| project DeviceName, AccountName, FileName, ProcessCommandLine, RemoteUrl, RemoteIP, NetworkTimestamp
+| sort by NetworkTimestamp desc
+
+// -------------------------------------------------------------------------
+// QUERY 6: Template for Microsoft Sentinel Scheduled Analytics Rule
+// Detects repeated failed sign-ins (brute force) per user with Entity Mapping
+// -------------------------------------------------------------------------
+// In Sentinel Analytics Rule Wizard:
+// - Query frequency: 1 hour
+// - Lookback period: 1 hour
+// - Entity Mapping:
+//     Account -> FullName = UserPrincipalName
+//     IP -> Address = IPAddress
+SigninLogs
+| where TimeGenerated >= ago(1h)
+| where ResultType != "0" // Failed logon
+| summarize FailedCount = count(), UniqueIPs = dcount(IPAddress) by UserPrincipalName, IPAddress
+| where FailedCount >= 5
+| project UserPrincipalName, IPAddress, FailedCount, UniqueIPs
+
+// -------------------------------------------------------------------------
+// QUERY 7: Monitor Microsoft Sentinel Connector & Ingestion Health
+// Query against the SentinelHealth table
+// -------------------------------------------------------------------------
+SentinelHealth
+| where TimeGenerated > ago(24h)
+| where Status in ("Failure", "Degraded")
+| project TimeGenerated, OperationName, WorkspaceName, Description, Status, ExtendedProperties
+| sort by TimeGenerated desc
+
