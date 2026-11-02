@@ -81,9 +81,9 @@ flowchart LR
 
 | Engineering Suite | Focus Area | Key Deliverables |
 | :--- | :--- | :--- |
-| 🛡️ **[`microsoft-soc-xdr-sentinel-labs`](https://github.com/mufticyberpro/mufticyberpro/tree/main/microsoft-soc-xdr-sentinel-labs)** | **Microsoft SOC, Sentinel SIEM & Defender XDR** | 7 end-to-end SOC engineering case studies, production KQL hunting/analytics queries, benign PowerShell adversary simulations (LOLBAS/Encoded PS/Persistence), and Managed Identity SOAR playbooks. |
-| 🐧 **[`linux-administration-and-hardening`](https://github.com/mufticyberpro/mufticyberpro/tree/main/linux-administration-and-hardening)** | **RHEL 10 Linux Administration & Hardening (RHCSA)** | 62 hands-on RHEL 10 engineering labs across 11 modules: SELinux mandatory access control, `firewalld`, LVM/Stratis storage, `autofs`, `systemd`, Podman Quadlets, plus automated provisioning & grading scripts. |
-| 🔎 **[`windows-dfir-forensics-labs`](https://github.com/mufticyberpro/mufticyberpro/tree/main/windows-dfir-forensics-labs)** | **Windows Digital Forensics & Incident Response (DFIR)** | Deep-dive forensic playbooks and artifact investigations: Program Execution (`Prefetch`, `Amcache`, `Shimcache`, `SRUM`), Registry transaction logs, Event Log lateral movement, NTFS `$MFT`/`$UsnJrnl`, USB tracking, Browser/Cloud forensics, and Autopsy disk examinations. |
+| 🛡️ **[`microsoft-soc-xdr-sentinel-labs`](https://github.com/mufticyberpro/microsoft-soc-xdr-sentinel-labs)** | **Microsoft SOC, Sentinel SIEM & Defender XDR** | 7 end-to-end SOC engineering case studies, production KQL hunting/analytics queries, benign PowerShell adversary simulations (LOLBAS/Encoded PS/Persistence), and Managed Identity SOAR playbooks. |
+| 🐧 **[`linux-administration-and-hardening`](https://github.com/mufticyberpro/linux-administration-and-hardening)** | **RHEL 10 Linux Administration & Hardening (RHCSA)** | 62 hands-on RHEL 10 engineering labs across 11 modules: SELinux mandatory access control, `firewalld`, LVM/Stratis storage, `autofs`, `systemd`, Podman Quadlets, plus automated provisioning & grading scripts. |
+| 🔎 **[`windows-dfir-forensics-labs`](https://github.com/mufticyberpro/windows-dfir-forensics-labs)** | **Windows Digital Forensics & Incident Response (DFIR)** | Deep-dive forensic playbooks and artifact investigations: Program Execution (`Prefetch`, `Amcache`, `Shimcache`, `SRUM`), Registry transaction logs, Event Log lateral movement, NTFS `$MFT`/`$UsnJrnl`, USB tracking, Browser/Cloud forensics, and Autopsy disk examinations. |
 
 ---
 
